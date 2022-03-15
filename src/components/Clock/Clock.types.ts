@@ -1,4 +1,10 @@
 export interface ClockProps {
-  time: number,
+  time: Time,
   className?: string,
+}
+
+export interface Time {
+  hours: number,
+  minutes: number,
+  seconds: number,
 }
